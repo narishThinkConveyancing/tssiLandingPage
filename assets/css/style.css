@@ -44,8 +44,38 @@ body, html {
 .black-text {
   color: #000000!important;
 }
-
 /* Typhography */
+
+/* Backgound */
+.midnight-express-bg {
+  background: #01093F !important;
+}
+.midnight-express-bg-30pct {
+  background: rgb(1, 9, 63, 30%) !important
+}
+.ghost-white-bg{
+  background: #F5F5F8 !important;
+}
+.nobel-bg{
+  background: #979797 !important;
+}
+.mischka-bg {
+  background: #A5A7B1 !important;
+}
+.dark-cyan-bg{
+  background: #019A8B !important;
+}
+.navy-blue-bg{
+  background: #01093F !important;
+}
+.black-bg{
+  background: #000000 !important;
+}
+.gray-bg{
+  background: #F6F6F6 !important;
+}
+/* Backgound */
+
 .bg {
   background-image: url("../img/intranet_banner_tssi.png");
   height: 253px;
