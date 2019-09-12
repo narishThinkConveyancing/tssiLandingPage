@@ -1,15 +1,14 @@
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
-$("body").on("click", "#navbarNav li a", function(){
+/* $("body").on("click", "#navbarNav li a", function(){
   var target = this.hash; // gets the #hash
-  console.log(target);
   $target = $(target); //
-  $('body').stop().animate({
+  $('html, body').stop().animate({
       'scrollTop': $target.offset().top-80 // scrolls to the link
   }, 500, 'swing', function () {
   });
-});
+}); */
 orientation();
 function orientation(){
   var isOrient = $( "#navbarNav" ).is( ":visible" );
