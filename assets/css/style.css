@@ -90,7 +90,6 @@ body, html {
   position: fixed;
   z-index: 1030;
   width: 100%;
-  left: 0;
 }
 /* Height */
 .h-100vh{
