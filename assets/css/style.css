@@ -83,10 +83,18 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.stickyNav{
+  top: 0;
+  position: fixed;
+  z-index: 1030;
+  width: 100%
+}
 /* Height */
 .h-100vh{
   height: 100vh !important;
+}
+.h-25vh{
+  height: 25vh !important;
 }
 /* Height */
 
