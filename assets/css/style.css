@@ -5,6 +5,47 @@ body, html {
   height: 100%;
   margin: 0;
 }
+
+/* Typhography */
+.scarlet-text {
+  color: #FF2500 !important;
+}
+.midnight-express-text {
+  color: #01093F !important;
+}
+.link-water-text {
+  color: #CFD0D7 !important;
+}
+.mischka-text {
+  color: #A5A7B1 !important;
+}
+.tifanny-cyan-text {
+  color: #0bc1af !important;
+}
+.dark-cyan-text{
+  color: #019A8B !important;
+}
+.space-text{
+  color: #AABBCC !important;
+}
+.gray-text{
+  color: #979797 !important;
+}
+.baby-blue-text{
+  color: #016BB7 !important;
+}
+.baby-pink-text{
+  color: #FFB0A1 !important;
+}
+.blue-gray-text{
+  color: #9195B1 !important;
+}
+
+.black-text {
+  color: #000000!important;
+}
+
+/* Typhography */
 .bg {
   background-image: url("../img/intranet_banner_tssi.png");
   height: 253px;
