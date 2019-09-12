@@ -89,7 +89,8 @@ body, html {
   top: 0;
   position: fixed;
   z-index: 1030;
-  width: 100%
+  width: 100%;
+  left: 0;
 }
 /* Height */
 .h-100vh{
@@ -99,7 +100,30 @@ body, html {
   height: 25vh !important;
 }
 /* Height */
+/* cards */
+.services .card-deck, .joinUs .card-deck{
+  margin: 2rem 0rem;
+}
+.services  .card-deck .card, .joinUs  .card-deck .card{
+  border: 0px !important;
+}
+.services .card-deck .card img{
+  width: 50% !important;
+  margin: 0 auto;
+}
+.joinUs .card-deck .card img{
+  width: 40% !important;
+  margin: 0 auto;
+}
+.services .card-deck .card .card-body, .joinUs .card-deck .card .card-body{
+  border: 1px solid rgba(0,0,0,.125);
+  margin-top: -20%;
+}
+.services  .card-deck .card .card-body .card-title, .joinUs  .card-deck .card .card-body .card-title{
+  margin-top: 20%;
+}
 
+/* cards */
 /* media screen */
 @media (max-width: 575.98px) {
 
