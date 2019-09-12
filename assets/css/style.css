@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body, html {
   height: 100%;
   margin: 0;
@@ -10,8 +13,11 @@ body, html {
   background-size: cover;
 }
 
+/* media screen */
 @media (max-width: 575.98px) {
+
 }
+
 @media (max-width: 767.98px) {
   .bg {
     background-image: url("../img/intranet_banner_mobile_tssi.png");
@@ -21,8 +27,12 @@ body, html {
     background-size: cover;
   }
 }
+
 @media (max-width: 991.98px) {
 
 }
+
 @media (max-width: 1199.98px) {
+
 }
+/* media screen */
