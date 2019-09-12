@@ -78,11 +78,17 @@ body, html {
 
 .bg {
   background-image: url("../img/intranet_banner_tssi.png");
-  height: 253px;
+  height: 75vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* Height */
+.h-100vh{
+  height: 100vh !important;
+}
+/* Height */
 
 /* media screen */
 @media (max-width: 575.98px) {
