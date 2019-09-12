@@ -1,0 +1,35 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template-overviews/small-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
+ */
+html{
+  scroll-behavior: smooth;
+}
+body {
+  padding-top: 56px;
+}
+
+div.row > div > div > div.card-body{
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body > div.container > div:nth-child(11) > div > div > div,
+body > div.container > div:nth-child(11) > div:nth-child(2) > div > div,
+body > div.container > div:nth-child(11) > div:nth-child(3) > div > div
+{
+	width: inherit;
+}
+a.text-email{
+	color: #88ccff;
+}
+body > div.container > div.card.text-white.bg-secondary.my-0.py-4.text-center,
+body > div.container > div:nth-child(5) > div.card.text-white.bg-secondary.my-1.py-1.text-center{
+	background-color: #1a1c48 !important;
+}
+
+.bg-dark {
+background-color:#1a1c48 !important;
+}
