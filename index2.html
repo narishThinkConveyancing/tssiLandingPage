@@ -8,11 +8,11 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
         <link href="./assets/css/style.css" rel="stylesheet">
     </head>
-    <body onscroll="myFunction()">
+    <body>
         <!-- Welcome -->
         <div class="h-100vh">
             <!-- Top banner -->
-            <div class="container-fluid p-0">
+            <div class="container-fluid p-0" id="Home">
                 <div class="bg"></div>
             </div>
             <div class="container midnight-express-text h-25vh">
@@ -36,20 +36,20 @@
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
                       <ul class="navbar-nav ml-auto">
-                          <li class="nav-item active">
-                              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#Home">Home </a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="#">About</a>
+                              <a class="nav-link" href="#About">About</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="#">Services</a>
+                              <a class="nav-link" href="#Services">Services</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="#">Gallery</a>
+                              <a class="nav-link" href="#Gallery">Gallery</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="#">Facebook</a>
+                              <a class="nav-link" href="#Facebook">Facebook</a>
                           </li>
                       </ul>
                   </div>
@@ -59,9 +59,9 @@
         <!-- navigation -->
         <!-- Content -->
         <div class="container-fluid midnight-express-bg" id="fullBanner">
-            <div class="container">
+            <div class="container" id="About">
                 <!-- About TSSI -->
-                <div class="row justify-content-start pt-2 align-self-center">
+                <div class="row justify-content-start pt-2 align-self-center" >
                     <div class="col-12 d-flex">
                         <div class="card text-white midnight-express-bg text-center rounded-0">
                             <div class="card-body">
@@ -84,7 +84,7 @@
         </div>
         <!-- divider -->
         <!-- Our Services -->
-        <div class="container midnight-express-text services">
+        <div class="container midnight-express-text services" id="Services">
             <h2 class="text-center">Our Services</h2>
             <div class="card-deck">
                 <div class="card">
@@ -189,7 +189,7 @@
             </div>
         </div>
         <!-- Why Join Us -->
-        <div class="container midnight-express-text">
+        <div class="container midnight-express-text" id="Gallery">
             <!-- TSSI Galley -->
             <div class="row">
                 <div class="col-12">
