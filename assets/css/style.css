@@ -2,11 +2,27 @@ body, html {
   height: 100%;
   margin: 0;
 }
-
 .bg {
   background-image: url("../img/intranet_banner_tssi.png");
-  height: 416px;
+  height: 253px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media (max-width: 575.98px) {
+}
+@media (max-width: 767.98px) {
+  .bg {
+    background-image: url("../img/intranet_banner_mobile_tssi.png");
+    height: 288px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media (max-width: 991.98px) {
+
+}
+@media (max-width: 1199.98px) {
 }
