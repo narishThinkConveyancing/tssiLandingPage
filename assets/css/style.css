@@ -40,9 +40,11 @@ body, html {
 .blue-gray-text{
   color: #9195B1 !important;
 }
-
 .black-text {
-  color: #000000!important;
+  color: #000000 !important;
+}
+.text-email{
+  color: #88ccff !important;
 }
 /* Typhography */
 
