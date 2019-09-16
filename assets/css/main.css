@@ -173,6 +173,10 @@ html, body, header, .view {
   transform: translate(-50%, -50%);
 }
 /* flipping cards */
+#Gallery .navigation{
+  right: auto !important;
+  left: 45% !important;
+}
 /* swing image */
 .figure-center{
   margin-left: -30px;
