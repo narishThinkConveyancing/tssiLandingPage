@@ -5,7 +5,7 @@ html, body, header, .view {
 }
 
 .intro-front-view {
-    background: url("https://mdbootstrap.com/img/Photos/Others/img (40).jpg")no-repeat center center;
+    background: url("../img/welcome-banner.jpeg")no-repeat center center;
     min-height: 500px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
