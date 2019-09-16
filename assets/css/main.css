@@ -111,8 +111,19 @@ html, body, header, .view {
   margin-top: 25%;
 }
 /* cards */
-/* media screen */
 
+/* Backgound image sizing */
+.bg-img-w250px-h250px{
+  width: 250px;
+  height: 250px;
+  background-color: #F5F5F8;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Backgound image sizing */
+
+/* media screen */
 @media (max-width: 575px) {
   .services  .card-deck .card .card-body .card-title, .joinUs  .card-deck .card .card-body .card-title{
     margin-top: 0 !important;
