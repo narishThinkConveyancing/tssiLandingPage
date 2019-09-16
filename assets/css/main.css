@@ -1,7 +1,12 @@
-.intro-2 {
+html, body, header, .view {
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.intro-front-view {
     background: url("https://mdbootstrap.com/img/Photos/Others/img (40).jpg")no-repeat center center;
     min-height: 500px;
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -21,10 +26,4 @@
     .navbar {
         background-color: #4285F4;
     }
-}
-html,
-body,
-header,
-.view {
-    height: 100%;
 }
