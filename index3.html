@@ -51,7 +51,7 @@
           </div>
       </header>
 
-      <main class="text-center py-5">
+      <main class="text-center pt-5">
           <!-- Our Services -->
           <div class="container midnight-express-text services" id="Services">
               <h2 class="text-center">Our Services</h2>
@@ -166,14 +166,49 @@
 
           </div>
           <!-- Why Join Us -->
+          <!-- Gallery -->
+          <div class="container midnight-express-text" id="Gallery">
+              <div class="row">
+                  <div class="col-12">
+                      <!-- Head -->
+                      <h2 class="text-center my-1 py-1">We’re not all about work!</h2>
+                      <h4 class="font-weight-400 text-center text-lg-centert mt-4 mb-0" id="gallery">TSSI Gallery</h4>
+                      <hr class="w-100">
+                      <!-- Body -->
+                      <div class="carousel-demo">
+                          <div class="slide">
+                              <img class="img-fluid w-100" src="./img/gallery/Superbowl.jpg" alt="">
+                          </div>
+                          <div class="slide">
+                              <img class="img-fluid w-100" src="./img/gallery/Winter%20Wonderland%20Christmas%20Party.JPG" alt="">
+                          </div>
+                          <div class="slide">
+                              <img class="img-fluid w-100" src="./img/gallery/Alf%20wedding%20w%20TSSI.jpg" alt="">
+                          </div>
+                          <div class="slide">
+                              <img class="img-fluid w-100" src="./img/gallery/Summer%20Outing%203.JPG" alt="">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- Gallery -->
       </main>
       <!--Main Layout-->
       <script src="./assets/mdb-4.5.15/js/jquery-3.3.1.min.js" ></script>
       <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0"></script>
-      <!-- <script src="./assets/js/script.js" ></script> -->
       <script src="./assets/mdb-4.5.15/js/popper.min.js" ></script>
       <script src="./assets/mdb-4.5.15/js/bootstrap.min.js"></script>
       <script src="./assets/mdb-4.5.15/js/mdb.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+      <script src="./assets/js/jR3DCarousel.js" ></script>
+      <!-- <script src="./assets/js/script.js" ></script> -->
+      <script>
+          $('.carousel-demo').jR3DCarousel({
+              height: 500,
+              animation:"slide3D",
+              animationDuration: 2000,
+              animationInterval: 5000,
+          });
+      </script>
     </body>
 </html>
