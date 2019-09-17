@@ -144,6 +144,26 @@ main{
       @include mediaQueries (md){
         width: 300px !important;
       }
+      @include mediaQueries (lg){
+        width: 400px !important;
+      }
     }
+  }
+  .tss-gallery-holder{
+      @include mediaQueries (xs){
+        width: 100% !important;
+      }
+      @include mediaQueries (sm){
+        width: 100% !important;
+      }
+      @include mediaQueries (md) {
+        width: 50% !important;
+      }
+      @include mediaQueries (lg){
+        width: 50% !important;
+      }
+      @include mediaQueries (xl){
+        width: 50% !important;
+      }
   }
 }
