@@ -14,20 +14,25 @@ html {
   scroll-behavior: smooth;
 }
 
+/* line 11, ../sass/_common.scss */
+.max-w-100 {
+  max-width: 100% !important;
+}
+
 /* Height */
-/* line 10, ../sass/_common.scss */
+/* line 17, ../sass/_common.scss */
 .h-100vh {
   height: 100vh !important;
 }
 
-/* line 13, ../sass/_common.scss */
+/* line 20, ../sass/_common.scss */
 .h-25vh {
   height: 25vh !important;
 }
 
 /* Height */
 /* Backgound image sizing */
-/* line 18, ../sass/_common.scss */
+/* line 26, ../sass/_common.scss */
 .bg-img-w250px-h250px {
   width: 250px;
   height: 250px;
