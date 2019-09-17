@@ -2,37 +2,146 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 1, ../sass/_common.scss */
+/* line 1, ../sass/_utilities.scss */
 html, body, header, .view {
   height: 100%;
   margin: 0;
   scroll-behavior: smooth;
 }
 
-/* line 6, ../sass/_common.scss */
+/* line 6, ../sass/_utilities.scss */
 html {
   scroll-behavior: smooth;
 }
 
-/* line 11, ../sass/_common.scss */
+/* line 11, ../sass/_utilities.scss */
 .max-w-100 {
   max-width: 100% !important;
 }
 
 /* Height */
-/* line 17, ../sass/_common.scss */
+/* line 17, ../sass/_utilities.scss */
 .h-100vh {
   height: 100vh !important;
 }
 
-/* line 20, ../sass/_common.scss */
+/* line 20, ../sass/_utilities.scss */
 .h-25vh {
   height: 25vh !important;
 }
 
 /* Height */
+/* Typhography */
+/* line 27, ../sass/_utilities.scss */
+.scarlet-text {
+  color: #FF2500 !important;
+}
+
+/* line 30, ../sass/_utilities.scss */
+.midnight-express-text {
+  color: #01093F !important;
+}
+
+/* line 33, ../sass/_utilities.scss */
+.link-water-text {
+  color: #CFD0D7 !important;
+}
+
+/* line 36, ../sass/_utilities.scss */
+.mischka-text {
+  color: #A5A7B1 !important;
+}
+
+/* line 39, ../sass/_utilities.scss */
+.tifanny-cyan-text {
+  color: #0bc1af !important;
+}
+
+/* line 42, ../sass/_utilities.scss */
+.dark-cyan-text {
+  color: #019A8B !important;
+}
+
+/* line 45, ../sass/_utilities.scss */
+.space-text {
+  color: #AABBCC !important;
+}
+
+/* line 48, ../sass/_utilities.scss */
+.gray-text {
+  color: #979797 !important;
+}
+
+/* line 51, ../sass/_utilities.scss */
+.baby-blue-text {
+  color: #016BB7 !important;
+}
+
+/* line 54, ../sass/_utilities.scss */
+.baby-pink-text {
+  color: #FFB0A1 !important;
+}
+
+/* line 57, ../sass/_utilities.scss */
+.blue-gray-text {
+  color: #9195B1 !important;
+}
+
+/* line 60, ../sass/_utilities.scss */
+.black-text {
+  color: #000000 !important;
+}
+
+/* Typhography */
+/* Backgound */
+/* line 66, ../sass/_utilities.scss */
+.midnight-express-bg {
+  background: #01093F !important;
+}
+
+/* line 69, ../sass/_utilities.scss */
+.midnight-express-bg-30pct {
+  background: #01093f !important;
+}
+
+/* line 72, ../sass/_utilities.scss */
+.ghost-white-bg {
+  background: #f1f2f9 !important;
+}
+
+/* line 75, ../sass/_utilities.scss */
+.nobel-bg {
+  background: #979797 !important;
+}
+
+/* line 78, ../sass/_utilities.scss */
+.mischka-bg {
+  background: #A5A7B1 !important;
+}
+
+/* line 81, ../sass/_utilities.scss */
+.dark-cyan-bg {
+  background: #019A8B !important;
+}
+
+/* line 84, ../sass/_utilities.scss */
+.navy-blue-bg {
+  background: #01093F !important;
+}
+
+/* line 87, ../sass/_utilities.scss */
+.black-bg {
+  background: #000000 !important;
+}
+
+/* line 90, ../sass/_utilities.scss */
+.gray-bg {
+  background: #979797 !important;
+}
+
+/* Backgound */
 /* Backgound image sizing */
-/* line 26, ../sass/_common.scss */
+/* line 96, ../sass/_utilities.scss */
 .bg-img-w250px-h250px {
   width: 250px;
   height: 250px;
