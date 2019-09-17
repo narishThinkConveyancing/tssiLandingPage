@@ -1,0 +1,20 @@
+header{
+  .intro-front-view {
+    background: url("../../assets/img/welcome-banner.jpeg")no-repeat center center;
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .navbar {
+      background-color: transparent;
+      @include mediaQueries (sm){
+        background-color: #01093F;
+      }
+  }
+  .top-nav-collapse {
+      background-color: $midnight-express;
+  }
+}
