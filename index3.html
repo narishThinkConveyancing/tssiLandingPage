@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
         <link href="./sass/stylesheets/screen.css" rel="stylesheet">
     </head>
-    <body>
+    <body data-spy="scroll" data-target=".navbar" data-offset="100">
       <div id="fb-root"></div>
       <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0"></script>
       <header>
@@ -21,14 +21,14 @@
                   </button>
                   <div class="collapse navbar-collapse" id="navbarTSSIContent">
                       <ul class="navbar-nav ml-auto">
-                          <li class="nav-item active">
-                              <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
-                          </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="#About">About</a>
+                              <a class="nav-link" href="#Home">Home</a>
                           </li>
                           <li class="nav-item">
                               <a class="nav-link" href="#Services">Services</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#About">About</a>
                           </li>
                           <li class="nav-item">
                               <a class="nav-link" href="#Gallery">Gallery</a>
@@ -38,7 +38,7 @@
               </div>
           </nav>
 
-          <div class="view intro-front-view">
+          <div class="view intro-front-view" id="Home">
               <div class="full-bg-img">
                   <div class="mask rgba-blue-grey-light flex-center">
                       <div class="container text-center white-text wow fadeInUp px-2 px-lg-5">
@@ -198,33 +198,7 @@
 
           </div>
           <!-- Why Join Us -->
-          <!-- Gallery -->
-          <div class="container midnight-express-text" id="Gallery">
-              <div class="row">
-                  <div class="col-12">
-                      <!-- Head -->
-                      <h2 class="text-center my-1 py-1">We’re not all about work!</h2>
-                      <h4 class="font-weight-400 text-center text-lg-centert mt-4 mb-0" id="gallery">TSSI Gallery</h4>
-                      <hr class="w-100">
-                      <!-- Body -->
-                      <div class="carousel-demo">
-                          <div class="slide">
-                              <img class="img-fluid w-100" src="./img/gallery/Superbowl.jpg" alt="">
-                          </div>
-                          <div class="slide">
-                              <img class="img-fluid w-100" src="./img/gallery/Winter%20Wonderland%20Christmas%20Party.JPG" alt="">
-                          </div>
-                          <div class="slide">
-                              <img class="img-fluid w-100" src="./img/gallery/Alf%20wedding%20w%20TSSI.jpg" alt="">
-                          </div>
-                          <div class="slide">
-                              <img class="img-fluid w-100" src="./img/gallery/Summer%20Outing%203.JPG" alt="">
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <!-- Gallery -->
+
       </main>
       <!--Main Layout-->
       <!-- Footer -->
@@ -240,19 +214,7 @@
             <div class="col-md-6">
 
               <!-- Video -->
-              <div class="mb-4">
-                <div class="fb-page"
-                    data-href="https://www.facebook.com/thinkssi/"
-                    data-tabs="timeline,events" data-width="500" data-height="500"
-                    data-small-header="false" data-adapt-container-width="true"
-                    data-hide-cover="false" data-show-facepile="true">
-                        <blockquote cite="https://www.facebook.com/thinkssi/" class="fb-xfbml-parse-ignore">
-                            <a href="https://www.facebook.com/thinkssi/">
-                                Think Support Services Inc.
-                            </a>
-                        </blockquote>
-                </div>
-              </div>
+
             </div>
             <!--Grid column-->
 
@@ -273,7 +235,7 @@
       <script src="./assets/mdb-4.5.15/js/bootstrap.min.js"></script>
       <script src="./assets/mdb-4.5.15/js/mdb.min.js"></script>
       <script src="./assets/js/jR3DCarousel.js" ></script>
-      <!-- <script src="./assets/js/script.js" ></script> -->
+      <script src="./assets/js/script.js" ></script>
       <script>
           $('.carousel-demo').jR3DCarousel({
               height: 500,

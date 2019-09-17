@@ -11,7 +11,11 @@ header{
   .navbar {
       background-color: transparent;
       @include mediaQueries (sm){
-        background-color: #01093F;
+        background-color: $midnight-express;
+      }
+      .active  {
+          color: $baby-blue !important;
+          font-weight: bold;
       }
   }
   .top-nav-collapse {
