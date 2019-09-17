@@ -57,18 +57,24 @@ header .intro-front-view {
 header .navbar {
   background-color: transparent;
 }
+@media screen and (max-width: 575.98px) {
+  /* line 11, ../sass/_header.scss */
+  header .navbar {
+    background-color: #01093F;
+  }
+}
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
   /* line 11, ../sass/_header.scss */
   header .navbar {
     background-color: #01093F;
   }
 }
-/* line 16, ../sass/_header.scss */
+/* line 19, ../sass/_header.scss */
 header .navbar .active {
   color: #016BB7 !important;
   font-weight: bold;
 }
-/* line 21, ../sass/_header.scss */
+/* line 24, ../sass/_header.scss */
 header .top-nav-collapse {
   background-color: #01093F;
 }

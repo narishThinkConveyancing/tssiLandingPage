@@ -10,6 +10,9 @@ header{
   }
   .navbar {
       background-color: transparent;
+      @include mediaQueries (xs){
+        background-color: $midnight-express;
+      }
       @include mediaQueries (sm){
         background-color: $midnight-express;
       }
