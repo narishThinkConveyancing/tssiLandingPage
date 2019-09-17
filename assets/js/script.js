@@ -7,7 +7,7 @@ $("#navbarTSSIContent li a").on('click', function(event) {
         $('html, body').animate({
             scrollTop: $(hash).offset().top
         }, 800, function(){
-            window.location.hash = hash;
+            // window.location.hash = hash;
             $(".navbar .navbar-collapse").removeClass("show");
             if(hash != "#Home"){
               $("div").removeClass("maxMargin");
