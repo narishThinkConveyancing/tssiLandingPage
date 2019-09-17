@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="./assets/lightSlider/css/lightslider.css">
         <link rel="stylesheet" href="./sass/stylesheets/screen.css">
     </head>
-    <body>
+    <body data-spy="scroll" data-target=".navbar" data-offset="100">
       <div id="fb-root"></div>
       <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0"></script>
       <header>
@@ -21,14 +21,14 @@
                   </button>
                   <div class="collapse navbar-collapse" id="navbarTSSIContent">
                       <ul class="navbar-nav ml-auto">
-                          <li class="nav-item active">
-                              <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
-                          </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="#About">About</a>
+                              <a class="nav-link" href="#Home">Home</a>
                           </li>
                           <li class="nav-item">
                               <a class="nav-link" href="#Services">Services</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#About">About</a>
                           </li>
                           <li class="nav-item">
                               <a class="nav-link" href="#Gallery">Gallery</a>
@@ -38,7 +38,7 @@
               </div>
           </nav>
 
-          <div class="view intro-front-view">
+          <div class="view intro-front-view" id="Home">
               <div class="full-bg-img">
                   <div class="mask rgba-blue-grey-light flex-center">
                       <div class="container text-center white-text wow fadeInUp px-2 px-lg-5">
@@ -127,7 +127,7 @@
               </div>
           </div>
           <!-- divider -->
-          <div class="container midnight-express-text my-2 my-md-4">
+          <div class="container midnight-express-text wereHiring my-2 my-md-4">
               <!-- We are hiring -->
               <div class="row">
                   <div class="col-12">
@@ -152,7 +152,7 @@
           </div>
           <!-- divider -->
           <!-- Why Join Us -->
-          <div class="container midnight-express-text pt-3 pb-5">
+          <div class="container midnight-express-text whyJoinUs pt-3 pb-5">
               <h2 class="text-center">Why join us?</h2>
               <div class="row my-0 my-md-4">
                 <div class="col-md-4 pt-4 pt-md-0">
@@ -239,19 +239,7 @@
             <div class="col-md-6">
 
               <!-- Video -->
-              <div class="mb-4">
-                <div class="fb-page"
-                    data-href="https://www.facebook.com/thinkssi/"
-                    data-tabs="timeline,events" data-width="500" data-height="500"
-                    data-small-header="false" data-adapt-container-width="true"
-                    data-hide-cover="false" data-show-facepile="true">
-                        <blockquote cite="https://www.facebook.com/thinkssi/" class="fb-xfbml-parse-ignore">
-                            <a href="https://www.facebook.com/thinkssi/">
-                                Think Support Services Inc.
-                            </a>
-                        </blockquote>
-                </div>
-              </div>
+
             </div>
             <!--Grid column-->
 

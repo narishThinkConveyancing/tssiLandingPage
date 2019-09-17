@@ -1,0 +1,26 @@
+html, body, header, .view {
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Height */
+.h-100vh{
+  height: 100vh !important;
+}
+.h-25vh{
+  height: 25vh !important;
+}
+/* Height */
+/* Backgound image sizing */
+.bg-img-w250px-h250px{
+  width: 250px;
+  height: 250px;
+  background-color: #F5F5F8;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Backgound image sizing */
