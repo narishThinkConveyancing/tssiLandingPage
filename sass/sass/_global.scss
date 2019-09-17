@@ -1,0 +1,47 @@
+html, body, header, .view {
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+/* Height */
+.h-100vh{
+  height: 100vh !important;
+}
+.h-25vh{
+  height: 25vh !important;
+}
+/* Height */
+header{
+  .intro-front-view {
+      background: url("../img/welcome-banner.jpeg")no-repeat center center;
+      min-height: 500px;
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .navbar {
+      background-color: transparent;
+  }
+  .top-nav-collapse {
+      background-color: $midnight-express;
+  }
+}
+.services{
+  .card-img-top{
+    width: 40%;
+    margin: 40px auto !important;
+  }
+  .card-top-content{
+    height: 90px !important;
+  }
+  .card-title{
+    margin-top: 25%;
+  }
+}
+.joinUs{
+  .card-title{
+    margin-top: 25%;
+  }
+}

@@ -66,3 +66,60 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
+
+/* line 1, ../sass/_global.scss */
+html, body, header, .view {
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+/* Height */
+/* line 7, ../sass/_global.scss */
+.h-100vh {
+  height: 100vh !important;
+}
+
+/* line 10, ../sass/_global.scss */
+.h-25vh {
+  height: 25vh !important;
+}
+
+/* Height */
+/* line 15, ../sass/_global.scss */
+header .intro-front-view {
+  background: url("../img/welcome-banner.jpeg") no-repeat center center;
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 24, ../sass/_global.scss */
+header .navbar {
+  background-color: transparent;
+}
+/* line 27, ../sass/_global.scss */
+header .top-nav-collapse {
+  background-color: #01093F;
+}
+
+/* line 32, ../sass/_global.scss */
+.services .card-img-top {
+  width: 40%;
+  margin: 40px auto !important;
+}
+/* line 36, ../sass/_global.scss */
+.services .card-top-content {
+  height: 90px !important;
+}
+/* line 39, ../sass/_global.scss */
+.services .card-title {
+  margin-top: 25%;
+}
+
+/* line 44, ../sass/_global.scss */
+.joinUs .card-title {
+  margin-top: 25%;
+}
