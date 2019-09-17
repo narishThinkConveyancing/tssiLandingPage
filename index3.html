@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./assets/mdb-4.5.15/css/bootstrap.min.css">
         <link rel="stylesheet" href="./assets/mdb-4.5.15/css/mdb.min.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-        <link href="./sass/stylesheets/screen.css" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/lightSlider/css/lightslider.css">
+        <link rel="stylesheet" href="./sass/stylesheets/screen.css">
     </head>
     <body>
       <div id="fb-root"></div>
@@ -207,19 +207,18 @@
                       <h4 class="font-weight-400 text-center text-lg-centert mt-4 mb-0" id="gallery">TSSI Gallery</h4>
                       <hr class="w-100">
                       <!-- Body -->
-                      <div class="carousel-demo">
-                          <div class="slide">
-                              <img class="img-fluid w-100" src="./img/gallery/Superbowl.jpg" alt="">
-                          </div>
-                          <div class="slide">
-                              <img class="img-fluid w-100" src="./img/gallery/Winter%20Wonderland%20Christmas%20Party.JPG" alt="">
-                          </div>
-                          <div class="slide">
-                              <img class="img-fluid w-100" src="./img/gallery/Alf%20wedding%20w%20TSSI.jpg" alt="">
-                          </div>
-                          <div class="slide">
-                              <img class="img-fluid w-100" src="./img/gallery/Summer%20Outing%203.JPG" alt="">
-                          </div>
+                      <div class="tss-gallery-holder mx-auto w-50">
+                          <ul class="list-unstyled" id="tssiGallery" class="tss-gallery-content">
+                              <li data-thumb="./assets/img/gallery/1.jpg" data-src="./assets/img/gallery/1.jpg">
+                                  <img src="./assets/img/gallery/1.jpg" class="d-block h-auto max-w-100" />
+                              </li>
+                              <li data-thumb="./assets/img/gallery/2.jpg" data-src="./assets/img/gallery/2.jpg">
+                                  <img src="./assets/img/gallery/2.jpg" class="d-block h-auto max-w-100" />
+                              </li>
+                              <li data-thumb="./assets/img/gallery/3.jpg" data-src="./assets/img/gallery/3.jpg">
+                                  <img src="./assets/img/gallery/3.jpg" class="d-block h-auto max-w-100" />
+                              </li>
+                          </ul>
                       </div>
                   </div>
               </div>
@@ -272,15 +271,7 @@
       <script src="./assets/mdb-4.5.15/js/popper.min.js" ></script>
       <script src="./assets/mdb-4.5.15/js/bootstrap.min.js"></script>
       <script src="./assets/mdb-4.5.15/js/mdb.min.js"></script>
-      <script src="./assets/js/jR3DCarousel.js" ></script>
-      <!-- <script src="./assets/js/script.js" ></script> -->
-      <script>
-          $('.carousel-demo').jR3DCarousel({
-              height: 500,
-              animation:"fade",
-              animationDuration: 700,
-              animationInterval: 5000,
-          });
-      </script>
+      <script src="./assets/lightSlider/js/lightslider.js" ></script>
+      <script src="./assets/js/script.js" ></script>
     </body>
 </html>
