@@ -239,3 +239,21 @@ main .wereHiring .swing:before {
   border-radius: 50% 50%;
   background: #000;
 }
+@media screen and (max-width: 575.98px) {
+  /* line 137, ../sass/_global.scss */
+  main .socialContainer iframe {
+    width: 300px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  /* line 137, ../sass/_global.scss */
+  main .socialContainer iframe {
+    width: 300px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* line 137, ../sass/_global.scss */
+  main .socialContainer iframe {
+    width: 300px !important;
+  }
+}

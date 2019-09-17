@@ -133,4 +133,17 @@ main{
     	}
     }
   }
+  .socialContainer{
+    iframe{
+      @include mediaQueries (xs){
+        width: 300px !important;
+      }
+      @include mediaQueries (sm){
+        width: 300px !important;
+      }
+      @include mediaQueries (md){
+        width: 300px !important;
+      }
+    }
+  }
 }
