@@ -102,3 +102,15 @@ html {
   background-size: cover;
 }
 /* Backgound image sizing */
+
+/* Additional Spaces*/
+.maxMargin{
+  margin-top: 90px;
+  @include mediaQueries (xs){
+    margin-top: 120px;
+  }
+  @include mediaQueries (sm){
+    margin-top: 120px;
+  }
+}
+/* Additional Spaces */

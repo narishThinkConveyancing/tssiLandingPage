@@ -9,11 +9,19 @@ $("#navbarTSSIContent li a").on('click', function(event) {
         }, 800, function(){
             window.location.hash = hash;
             $(".navbar .navbar-collapse").removeClass("show");
+            if(hash != "#Home"){
+              $("div").removeClass("maxMargin");
+              $(hash).addClass("maxMargin");
+            }
         });
     } // End if
 });
-// Add smooth scrolling to all links
-
+//when user scroll
+window.addEventListener("wheel", event => {
+    const delta = Math.sign(event.deltaY);
+    setTimeout(function(){   $("div").removeClass("maxMargin"); console.log("test"); }, 300);
+});
+//when user scroll
 // Custom Carousel
 var carouselElem = $(".tss-gallery-holder");
 if ( carouselElem.is(":visible") ) {
