@@ -168,7 +168,7 @@ html, body, header, .view {
 /* Additional Spaces */
 /* line 2, ../sass/_header.scss */
 header .intro-front-view {
-  background: url("../../assets/img/welcome-banner.jpeg") no-repeat center center;
+  background: url("../../assets/img/tssiBanner.png") no-repeat center center;
   min-height: 500px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
