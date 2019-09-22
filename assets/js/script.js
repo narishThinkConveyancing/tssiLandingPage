@@ -33,6 +33,7 @@ if ( carouselElem.is(":visible") ) {
         slideMargin: 0,
         enableDrag: false,
         auto: true,
+        mode: 'fadeIn'
     });
 }
 // Custom Carousel
