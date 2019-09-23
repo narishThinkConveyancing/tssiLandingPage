@@ -1,3 +1,5 @@
+//aos init
+AOS.init();
 // Add smooth scrolling to all links
 $("#navbarTSSIContent li a").on('click', function(event) {
     if (this.hash !== "") {
@@ -22,4 +24,4 @@ window.addEventListener("wheel", event => {
     setTimeout(function(){   $("div").removeClass("maxMargin"); console.log("test"); }, 300);
 });
 //when user scroll
-new WOW().init();
+//new WOW().init();
