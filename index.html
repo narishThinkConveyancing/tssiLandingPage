@@ -7,7 +7,6 @@
         <link rel="shortcut icon" href="favicon.ico" />
         <link rel="stylesheet" href="./assets/mdb-4.5.15/css/bootstrap.min.css">
         <link rel="stylesheet" href="./assets/mdb-4.5.15/css/mdb.min.css">
-        <link rel="stylesheet" href="./assets/lightSlider/css/lightslider.css">
         <link rel="stylesheet" href="./sass/stylesheets/screen.css">
     </head>
     <body data-spy="scroll" data-target=".navbar" data-offset="100">
@@ -203,24 +202,61 @@
           <div class="container midnight-express-text" id="Gallery">
               <div class="row">
                   <div class="col-12">
-                      <!-- Head -->
-                      <h2 class="text-center my-1 py-1">We’re not all about work!</h2>
-                      <!-- <h4 class="font-weight-400 text-center text-lg-centert mt-4 mb-0" id="gallery">TSSI Gallery</h4> -->
-                      <hr class="w-100">
-                      <!-- Body -->
-                      <div class="tss-gallery-holder mx-auto">
-                          <ul class="list-unstyled" id="tssiGallery" class="tss-gallery-content">
-                              <li data-thumb="./assets/img/gallery/1.jpg" data-src="./assets/img/gallery/1.jpg">
-                                  <img src="./assets/img/gallery/1.jpg" class="d-block h-auto max-w-100" />
-                              </li>
-                              <li data-thumb="./assets/img/gallery/2.jpg" data-src="./assets/img/gallery/2.jpg">
-                                  <img src="./assets/img/gallery/2.jpg" class="d-block h-auto max-w-100" />
-                              </li>
-                              <li data-thumb="./assets/img/gallery/3.jpg" data-src="./assets/img/gallery/3.jpg">
-                                  <img src="./assets/img/gallery/3.jpg" class="d-block h-auto max-w-100" />
-                              </li>
-                          </ul>
+                    <!-- Head -->
+                    <h2 class="text-center my-1 py-1">We’re not all about work!</h2>
+                    <!-- <h4 class="font-weight-400 text-center text-lg-centert mt-4 mb-0" id="gallery">TSSI Gallery</h4> -->
+                    <hr class="w-100">
+                    <!-- Body -->
+                    <!--Carousel Wrapper-->
+                    <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+                      <!--Indicators-->
+                      <ol class="carousel-indicators d-none">
+                        <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+                      </ol>
+                      <!--/.Indicators-->
+                      <!--Slides-->
+                      <div class="carousel-inner" role="listbox">
+                        <!--First slide-->
+                        <div class="carousel-item active ">
+                            <div class="row">
+                              <div class="col-md-8 pr-md-1 view overlay">
+                                <img src="./assets/img/gallery/3.png" class="img-fluid wow fadeInDown"/>
+                                <div class="mask rgba-black-light">
+                                </div>
+                              </div>
+                              <div class="col-md-4 pl-md-0 view overlay">
+                                <div class="row">
+                                  <div class="col-md-12">
+                                    <img src="./assets/img/gallery/1.png" class="img-fluid wow fadeInLeft" data-wow-delay="0.4s" />
+                                    <div class="mask rgba-stylish-light">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-12 pt-md-2">
+                                    <img src="./assets/img/gallery/2.png" class="img-fluid wow fadeInRight" data-wow-delay="0.9s"/>
+                                    <div class="mask rgba-stylish-light">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <!--/First slide-->
                       </div>
+                      <!--/.Slides-->
+                      <!--Controls-->
+                      <a class="carousel-control-prev d-none" href="#carousel-example-1z" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next d-none" href="#carousel-example-1z" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                      <!--/.Controls-->
+                    </div>
+                    <!--/.Carousel Wrapper-->
                   </div>
               </div>
           </div>
@@ -270,7 +306,6 @@
       <script src="./assets/mdb-4.5.15/js/popper.min.js" ></script>
       <script src="./assets/mdb-4.5.15/js/bootstrap.min.js"></script>
       <script src="./assets/mdb-4.5.15/js/mdb.min.js"></script>
-      <script src="./assets/lightSlider/js/lightslider.js" ></script>
       <script src="./assets/js/script.js" ></script>
     </body>
 </html>

@@ -22,19 +22,4 @@ window.addEventListener("wheel", event => {
     setTimeout(function(){   $("div").removeClass("maxMargin"); console.log("test"); }, 300);
 });
 //when user scroll
-// Custom Carousel
-var carouselElem = $(".tss-gallery-holder");
-if ( carouselElem.is(":visible") ) {
-    carouselElem.find('#tssiGallery').lightSlider({
-        gallery: true,
-        item: 1,
-        loop: true,
-        thumbItem: 9,
-        slideMargin: 0,
-        enableDrag: false,
-        auto: true,
-        mode: 'fadeIn',
-        speed: 2000
-    });
-}
-// Custom Carousel
+new WOW().init();
