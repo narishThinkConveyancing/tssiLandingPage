@@ -79,13 +79,6 @@ main{
     	background-color: $midnight-express;
     	color: white;
     	transform: rotateY(180deg);
-    	p {
-    		position: relative;
-    		float: left;
-    		top: 50%;
-    		left: 50%;
-    		transform: translate(-50%, -50%);
-    	}
     }
   }
   .wereHiring{
